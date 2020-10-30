@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="SHORTCUT ICON" href="image/favicon2.png"/>
+	<title>Swift Tutorial - Javatpoint</title>
+	<link rel="stylesheet" type="text/css" href="css/swift.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript">
+		window.onscroll = function() {
+			scrollFunction()
+		};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		function topFunction() {
+		  document.documentElement.scrollTop = 0; 
+		}
+	</script>
+</head>
+<body>
+
+	<!-- Go To Top -->
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8679;</button>
+
+	<!-- Header -->
+
+	<header class="header_title">
+		<section>
+			<img src="image/logo.png">
+			<section>
+				<input type="text" placeholder="Google Custom Search" style="text-align: left;">
+				<button><i class="fas fa-search"></i></button>
+			</section>
+		</section>
+		<nav>
+			<div><a href="home.html">Home</a></div>
+			<div><a href="swift.html">Swift</a></div>
+			<div><a href="">Java</a></div>
+			<div><a href="">C</a></div>
+			<div><a href="">C++</a></div>
+			<div><a href="">C#</a></div>
+			<div><a href="">Go</a></div>
+			<div><a href="">Ruby</a></div>
+			<div><a href="">SQL</a></div>
+			<div><a href="">Python</a></div>
+			<div><a href="">Kotlin</a></div>
+			<div><a href="">Hadoop</a></div>
+			<div><a href="">PHP</a></div>
+			<div><a href="">jQuery</a></div>
+			<div><a href="">Quiz</a></div>
+			<div><a href="">Projects</a></div>
+			<div><a href="">InterviewQ</a></div>
+			<div><a href="">Comment</a></div>
+			<div><a href="">Forum</a></div>
+			<div><a href="">Traning</a></div>
+		</nav>
+	</header>	
+
+	<!-- Main Body -->
+
+	<section id="body">
+		<div id="menu">
+			<div class="leftmenu_title">
+				<h2>
+					<img src="image/icon_bullet.png">
+					<span>Swift Tutorial</span>
+				</h2>
+			</div>
+			<div class="leftmenu">
+				<img src="image/arrowbullet.png"><strong><a href="swift.html">Swift Tutorial</a></strong><img src="image/open-12.png" style="margin-left: 5px;"><br>
+				<img src="image/arrowbullet.png"><a href="swift-introduction">What is Swift?</a><br>
+				<img src="image/arrowbullet.png"><a href="history-of-swift">History of Swift</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-syntax">Swift Syntax</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-data-types">Swift Datatypes</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-variables">Swift Variables</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-constants">Swift Constants</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-literals">Swift Literals</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-vs-objective-c">Swift vs Objective C</a><br>
+				<img src="image/arrowbullet.png"><a href="first-swift-program">First Swift Program</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-operators">Swift Operators</a><br>
+			</div>
+			<div class="leftmenu_title">
+				<h2>
+					<img src="image/icon_bullet.png">
+					<span>Control Statement</span>
+				</h2>
+			</div>
+			<div class="leftmenu">
+				<img src="image/arrowbullet.png"><a href="swift-switch-statement">Switch Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-if-statement">if Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-if-else-statement">if-else Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-if-else-if-statement">if-else-if Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-nested-if-else-statement">Nested if-else Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-gaurd-statement">Gaurd Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-break-statement">Break Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-continue-statement">Continue Statement</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-fallthrough-statement">Fallthrough Statement</a><br>
+			</div>
+			<div class="leftmenu_title">
+				<h2>
+					<img src="image/icon_bullet.png">
+					<span>Swift Loops</span>
+				</h2>
+			</div>
+			<div class="leftmenu">
+				<img src="image/arrowbullet.png"><a href="swift-4-loops">Swift Loops</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-for-in-loop">for-in loop</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-while-loop">while loop</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-repeat-while-loop">repeat-while loop</a><br>
+			</div>
+			<div class="leftmenu_title">
+				<h2>
+					<img src="image/icon_bullet.png">
+					<span>Swift Strings</span>
+				</h2>
+			</div>
+			<div class="leftmenu">
+				<img src="image/arrowbullet.png"><a href="swift-strings">Swift Strings</a><br>
+			</div>
+			<div class="leftmenu_title">
+				<h2>
+					<img src="image/icon_bullet.png">
+					<span>Swift Functions</span>
+				</h2>
+			</div>
+			<div class="leftmenu">
+				<img src="image/arrowbullet.png"><a href="swift-functions">Swift Functions</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-nested-function">Swift Nested Function</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-function-parameter-and-return-value">Parameter &amp; Return Value</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-recursion">Swift Recursion</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-function-overloading">Function Overloading</a><br>
+			</div>
+			<div class="leftmenu_title">
+				<h2>
+					<img src="image/icon_bullet.png">
+					<span>Swift Collection</span>
+				</h2>
+			</div>
+			<div class="leftmenu">
+				<img src="image/arrowbullet.png"><a href="swift-arrays">Swift Arrays</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-dictionary">Swift Dictionary</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-sets">Swift Sets</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-closures">Swift Closures</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-typealias">Swift Typealias</a><br>
+			</div>
+			<div class="leftmenu_title">
+				<h2>
+					<img src="image/icon_bullet.png">
+					<span>Swift OOPs</span>
+				</h2>
+			</div>
+			<div class="leftmenu">
+				<img src="image/arrowbullet.png"><a href="swift-enum">Swift Enum</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-structures">Swift Structures</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-classes">Swift Classes</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-properties">Swift Properties</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-inheritance">Swift Inheritance</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-methods">Swift Methods</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-subscripts">Swift Subscripts</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-deinitialization">Swift Deinitialization</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-initialization">Swift Initialization</a><br>
+				<img src="image/arrowbullet.png"><a href="swift-typecasting">Swift Typecasting</a><br>
+			</div>
+		</div>
+
+		<div id="main_panel">
+
+			<div id="bottomnextup">
+				<a>next &rarr;</a>
+			</div>
+
+			<h1>Swift Tutorial</h1>
+			<img src="https://static.javatpoint.com/tutorial/swift/images/swift-tutorial.png" alt="Swift Tutorial" style="float:right;padding-left:15px"/>
+
+			<p style="color: #212F3D;">Our Swift Tutorial provides basic and advanced concepts of Swift. This tutorial is designed for beginners and professionals.</p>
+			<p style="color: #212F3D;">Swift is a general purpose programming language for developing iOS applications. It is developed by Apple Inc.</p>
+			<p style="color: #212F3D;">Our Swift tutorial includes all topics of Swift Programming such as what is swift, History of Swift, Features of Swift, Swift vs Other Programming Languages, Environment Setup, First Swift Program, Syntax, Datatypes, Variables, Constants &amp; Literals, Operators, Control Statements, Loops, Strings, Functions, Collection etc.</p>
+
+			<br><br>
+			<hr/>
+				<center><h2 class="textshadow">Swift Tutorial Index</h2></center>
+			<hr/>
+
+			<div>
+				<div class="block">
+					<p class="title"><strong>Swift Tutorial</strong></p>
+					<ul class="points">
+						<li><a href="swift-tutorial">Swift Tutorial</a></li>
+						<li><a href="swift-introduction">What is Swift?</a></li>
+						<li><a href="history-of-swift">History of Swift</a></li>
+						<li><a href="swift-syntax">Swift Syntax</a></li>
+						<li><a href="swift-data-types">Swift Datatypes</a></li>
+						<li><a href="swift-variables">Swift Variables</a></li>
+						<li><a href="swift-constants">Swift Constants</a></li>
+						<li><a href="swift-literals">Swift Literals</a></li>
+						<li><a href="swift-vs-objective-c">Swift vs Objective C</a></li>
+						<li><a href="first-swift-program">First Swift Program</a></li>
+					</ul>
+
+					<p class="title"><strong>Swift Operators</strong></p>
+					<ul class="points">
+						<li><a href="swift-operators">Swift Operators</a></li>
+						<li><a href="swift-assignment-operator">Assignment Operator</a></li>
+						<li><a href="swift-arithmetic-operators">Arithmetic Operators</a></li>
+						<li><a href="swift-remainder-operator">Remainder Operator</a></li>
+						<li><a href="swift-unary-minus-plus-operator">Unary Minus Operator</a></li>
+						<li><a href="swift-unary-minus-plus-operator#unary-plus-operator">Unary Plus Operator</a></li>
+						<li><a href="swift-compound-assignment-operators">Compound Assignment</a></li>
+						<li><a href="swift-comparison-operators">Comparison Operators</a></li>
+						<li><a href="swift-ternary-conditional-operator">Ternary Conditional</a></li>
+						<li><a href="swift-range-operators">Range Operators</a></li>
+					</ul>
+				</div>
+
+
+				<div class="block">
+					<p class="title"><strong>Control Statement</strong></p>
+					<ul class="points">
+						<li><a href="swift-switch-statement">Switch Statement</a></li>
+						<li><a href="swift-if-statement">if Statement</a></li>
+						<li><a href="swift-if-else-statement">if-else Statement</a></li>
+						<li><a href="swift-if-else-if-statement">if-else-if Statement</a></li>
+						<li><a href="swift-nested-if-else-statement">Nested if-else Statement</a></li>
+						<li><a href="swift-gaurd-statement">Gaurd Statement</a></li>
+						<li><a href="swift-break-statement">Break Statement</a></li>
+						<li><a href="swift-continue-statement">Continue Statement</a></li>
+						<li><a href="swift-fallthrough-statement">Fallthrough Statement</a></li>
+					</ul>
+
+					<p class="title"><strong>Swift Loops</strong></p>
+					<ul class="points">
+						<li><a href="swift-4-loops">Swift Loops</a></li>
+						<li><a href="swift-for-in-loop">for-in loop</a></li>
+						<li><a href="swift-while-loop">while loop</a></li>
+						<li><a href="swift-repeat-while-loop">repeat-while loop</a></li>
+					</ul>
+				</div>
+
+
+				<div class="block">
+					<p class="title"><strong>Swift Strings</strong></p>
+					<ul class="points">
+						<li><a href="swift-strings">Swift Strings</a></li>
+					</ul>
+
+					<p class="title"><strong>Swift Functions</strong></p>
+					<ul class="points">
+						<li><a href="swift-functions">Swift Functions</a></li>
+						<li><a href="swift-nested-function">Swift Nested Function</a></li>
+						<li><a href="swift-function-parameter-and-return-value">Parameter &amp; Return Value</a></li>
+						<li><a href="swift-recursion">Swift Recursion</a></li>
+						<li><a href="swift-function-overloading">Function Overloading</a></li>
+					</ul>
+
+					<p class="title"><strong>Swift Collection</strong></p>
+					<ul class="points">
+						<li><a href="swift-arrays">Swift Arrays</a></li>
+						<li><a href="swift-dictionary">Swift Dictionary</a></li>
+						<li><a href="swift-sets">Swift Sets</a></li>
+						<li><a href="swift-closures">Swift Closures</a></li>
+						<li><a href="swift-typealias">Swift Typealias</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="main_bottom">
+				<hr/>
+
+				<h2>Prerequisites</h2>
+				<p>Before learning Swift, you must have the basic knowledge of programming concepts or any programming language.</p>
+
+				<h2>Audience</h2>
+				<p>Our Swift tutorial is designed to help beginners and professionals.</p>
+
+				<h2>Problem</h2>
+				<p>We assure that you will not find any problem in this Swift tutorial. But if there is any mistake, please post the problem in contact form.</p>
+
+				<hr/>
+			</div>
+
+			<div class="nexttopic">
+				<span>Next Topic</span>
+				<a href="swift-introduction">Swift Introduction</a>
+			</div>
+			
+			<br/><br/>
+			<div class="next">
+				<a style="float:right" class="next" href="swift-introduction">next &rarr;</a>
+			</div>
+
+			<h2 id="h2">Please Share</h2>
+			<a target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.javatpoint.com/swift-tutorial"><img src="https://www.javatpoint.com/images/facebook32.png"/></a>
+			<a target="_blank" href="https://twitter.com/share?url=https://www.javatpoint.com/swift-tutorial"><img src="https://www.javatpoint.com/images/twitter32.png"/></a>
+			<a target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=en&url=https://www.javatpoint.com/swift-tutorial"><img src="https://www.javatpoint.com/images/google-plus32.png"/></a>
+			<a target="_blank" href="https://www.pinterest.com/pin/create/button/?url=https://www.javatpoint.com/swift-tutorial"><img src="https://www.javatpoint.com/images/pinterest32.png"/></a>
+
+			<h2 id="h2">Learn Latest Tutorials</h2>
+				<div class="tutorial">
+                    <a href="https://www.javatpoint.com/swift-tutorial">
+                        <div class="course"><img src="https://static.javatpoint.com/tutorial/swift/images/swift-home.png" alt="Swift Tutorial" />
+                            <p>Swift</p>
+                        </div> 
+                    </a>  
+                    <a href="https://www.javatpoint.com/pig">
+                        <div class="course"><img src="https://static.javatpoint.com/hadooppages/pig/images/pig-home.png" alt="Apache Pig Tutorial" />
+                            <p>Pig</p>
+                        </div> 
+                    </a> 
+                    <a href="https://www.javatpoint.com/flask-tutorial">
+                        <div class="course"><img src="https://static.javatpoint.com/tutorial/flask/images/flask-home.png" alt="Flask Tutorial" />
+                            <p>Flask</p>
+                        </div> 
+                    </a> 
+                    <a href="https://www.javatpoint.com/computer-graphics-tutorial">
+                        <div class="course"><img src="https://static.javatpoint.com/tutorial/computer-graphics/images/computer-graphics-home.png" alt="Computer Graphics Tutorial" />
+                            <p>C. Graphics</p>
+                        </div> 
+                    </a>
+                    <a href="https://www.javatpoint.com/automata-tutorial">
+                        <div class="course"><img src="https://static.javatpoint.com/tutorial/automata/images/automata-home.jpg" alt="Automata Tutorial" />
+                            <p>Automata</p>
+                        </div> 
+                    </a>
+                    <a href="https://www.javatpoint.com/software-testing-tutorial">
+                        <div class="course"><img src="https://static.javatpoint.com/tutorial/software-testing/images/software-testing-home.png" alt="Software Testing Tutorial" />
+                            <p>Testing</p>
+                        </div>
+                    </a>
+				</div>
+
+				<hr/>
+		
+				<h2 id="h2">Preparation</h2>
+					<div class="tutorial">
+	                    <a href="https://www.javatpoint.com/aptitude/quantitative">
+                            <div class="course"><img src="https://static.javatpoint.com/aptitude/images/quantitative-aptitude-home.png" alt="Aptitude" />
+                                <p>Aptitude</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/reasoning">
+                            <div class="course"><img src="https://static.javatpoint.com/reasoning/images/reasoning-home.png" alt="Logical Reasoning" />
+                                <p>Reasoning</p>
+                            </div>
+                        </a>
+                        <a href="https://www.javatpoint.com/verbal-ability">
+                            <div class="course"><img src="https://static.javatpoint.com/verbal-ability/images/verbal-ability-home.png" alt="Verbal Ability" />
+                                <p>Verbal A.</p>
+                            </div>
+                        </a>
+                        <a href="interview-questions-and-answers">
+                            <div class="course"><img src="https://static.javatpoint.com/images/logo/interviewhome.png" alt="Interview Questions" />
+                                <p>Interview</p>
+                            </div>
+                        </a>
+					</div>
+ 
+					<hr/>
+
+                    <h2 id="h2">B.Tech / MCA</h2>
+                    	<div class="tutorial">
+                    		<table>
+                    			<tr>
+                    				<td>
+				                        <a href="https://www.javatpoint.com/dbms-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/dbms/images/dbms-home.jpg" alt="DBMS tutorial" />
+				                                <p>DBMS</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/data-structure-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/ds/images/ds-home.png" alt="Data Structures tutorial" />
+				                                <p>DS</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+
+				                        <a href="https://www.javatpoint.com/daa-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/tutorial/daa/images/daa-home.png" alt="DAA tutorial" />
+				                                <p>DAA</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/os-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/operating-system/images/operating-system-home.png" alt="Operating System tutorial" />
+				                                <p>OS</p>
+				                            </div> 
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/computer-network-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/tutorial/computer-network/images/computer-network-home.png" alt="Computer Network tutorial" />
+				                                <p>C. Network</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/compiler-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/compiler/images/compiler-design-home.png" alt="Compiler Design tutorial" />
+				                                <p>Compiler D.</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/tutorial/coa/images/coa-home.png" alt="Computer Organization and Architecture" />
+				                                <p>COA</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/discrete-mathematics-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/tutorial/dms/images/discrete-mathematics-home.png" alt="Discrete Mathematics Tutorial" />
+				                                <p>D. Math.</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/ethical-hacking-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/tutorial/ethical-hacking/images/ethical-hacking-home.png" alt="Ethical Hacking Tutorial" />
+				                                <p>E. Hacking</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/html-tutorial">
+				                            <div class="course"><img src="https://www.javatpoint.com/images/logo/html-tutorial.png" alt="html tutorial" />
+				                                <p>Web Tech.</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/cyber-security-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/tutorial/cybersecurity/images/cyber-security-home.png" alt="Cyber Security tutorial" />
+				                                <p>Cyber Sec.</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>				                    
+				                        <a href="https://www.javatpoint.com/c-programming-language-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/images/logo/clanguagehome.png" alt="C Language tutorial" />
+				                                <p>C</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/cpp-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/cpp/images/cpp-home.png" alt="C++ tutorial" />
+				                                <p>C++</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/java-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/images/logo/javahome.png" alt="Java tutorial" />
+				                                <p>Java</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/net-framework">
+				                            <div class="course"><img src="https://static.javatpoint.com/csharp/net/images/net-home.png" alt=".Net Framework tutorial" />
+				                                <p>.Net</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/python-tutorial">
+				                            <div class="course"><img src="https://www.javatpoint.com/images/logo/pythonhome.png" alt="Python tutorial" />
+				                                <p>Python</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/programs-list">
+				                            <div class="course"><img src="https://static.javatpoint.com/images/programs.jpg" alt="List of Programs" />
+				                                <p>Programs</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                    <td>
+				                        <a href="https://www.javatpoint.com/control-system-tutorial">
+				                            <div class="course"><img src="https://static.javatpoint.com/tutorial/control-system/images/control-system-home.jpg" alt="Control Systems tutorial" />
+				                                <p>Control S.</p>
+				                            </div>
+				                        </a>
+				                    </td>
+				                </tr>
+				            </table>
+					</div>
+			</div>
+	</section>
+	<!-- Footer -->
+
+	<footer class="footer" >
+		<div class="jtp_services"> 
+			<h2>Javatpoint Services</h2> 
+				<p>JavaTpoint offers too many high quality services. Mail us on hr@javatpoint.com, to get more information about given services. </p>
+					<ul class="points"> 
+						<li>Website Designing</li>
+						<li>Website Development</li>
+						<li>Java Development</li>
+						<li>PHP Development</li>
+						<li>WordPress</li>
+						<li>Graphic Designing</li>
+						<li>Logo</li>
+						<li>Digital Marketing</li>
+						<li>On Page and Off Page SEO</li>
+						<li>PPC</li>
+						<li>Content Development</li>
+						<li>Corporate Training</li>
+						<li>Classroom and Online Training</li>
+						<li>Data Entry</li>
+					</ul> 
+					<p style="padding-bottom:60px"></p>
+		</div>
+
+		<div class="clg_campus"> 
+			<h2>Training For College Campus</h2> 
+				<p>JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at hr@javatpoint.com. <br>Duration: 1 week to 2 week<br></p>
+		</div>
+
+		<div class="links"> 
+			<sup>Like/Subscribe us for latest updates or newsletter </sup> 
+				<a target="_blank" href="https://feeds.feedburner.com/javatpointsonoo">
+					<img src="https://static.javatpoint.com/images/social/rss1.png" alt="RSS Feed"/>
+				</a> 
+				<a target="_blank" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo">
+					<img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"/>
+				</a> 
+				<a target="_blank" href="https://www.facebook.com/javatpoint">
+					<img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"/>
+				</a> 
+				<a target="_blank noopener" href="https://plus.google.com/u/0/+javatpoint">
+					<img src="https://static.javatpoint.com/images/social/google1.png" alt="Google Page"/>
+				</a> 
+				<a target="_blank noopener" href="https://twitter.com/pagejavatpoint">
+					<img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"/>
+				</a> 
+				<a target="_blank" href="https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg">
+					<img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"/>
+				</a> 
+				<a target="_blank" href="https://javatpoint.blogspot.com">
+					<img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"/>
+				</a> 
+		</div>
+
+		<div class="about">
+			<div class="column4">
+				<h3>Learn Tutorials</h3>
+				<a href="https://www.javatpoint.com/java-tutorial">Learn Java</a>
+				<a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+				<a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+				<a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+				<a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+				<a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+				<a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+				<a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+				<a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+				<a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+			</div>
+			<div class="column4">
+				<h3>Our Websites</h3>
+				<a href="https://www.javatpoint.com">Javatpoint.com</a>
+				<a rel="dofollow noopener" target="_blank" href="https://www.hindi100.com">Hindi100.com</a>
+				<a rel="dofollow noopener" target="_blank" href="https://www.lyricsia.com">Lyricsia.com</a>
+				<a rel="nofollow noopener" target="_blank" href="https://www.quoteperson.com">Quoteperson.com</a>
+				<a rel="nofollow noopener" target="_blank" href="http://www.hindi-typing.com">Hindi-typing.com</a>
+				<a rel="nofollow noopener" target="_blank" href="http://www.shayaree.com">Shayaree.com</a>
+				<a rel="nofollow noopener" target="_blank" href="https://www.jobandplacement.com">Jobandplacement.com</a>
+			</div>
+			<div class="column4">
+				<h3>Our Services</h3>
+				<p>Website Development</p>
+				<p>Android Development</p>
+				<p>Website Designing</p>
+				<p>Digital Marketing</p>
+				<p>Summer Training</p>
+				<p>Industrial Training</p>
+				<p>College Campus Training</p>
+			</div>
+			<div class="column4">
+				<h3>Contact</h3>
+				<p>Address: G-13, 2nd Floor, Sec-3</p>
+				<p>Noida, UP, 201301, India</p>
+				<p>Contact No: 0120-4256464, 9990449935</p>
+				<a href="https://www.javatpoint.com/contact-us">Contact Us</a>
+				<a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a> 
+				<a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+				<a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+			</div>
+		</div>
+
+		<div class="copy">
+			<p>&copy; Copyright 2011-2018 www.javatpoint.com. All rights reserved. Developed by JavaTpoint.</p>
+		</div>
+	</footer>
+</div>
+</div>
+</body>
+</html>
